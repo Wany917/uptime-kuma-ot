@@ -11,7 +11,6 @@ const viteCompressionFilter = /\.(js|mjs|json|css|html|svg)$/i;
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/uptime-kuma-ot/',
     server: {
         port: 3000,
     },
